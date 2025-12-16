@@ -1,13 +1,10 @@
-import { useRef } from "react";
 import AnimatedTitle from "./AnimatedTitle";
-import gsap from "gsap";
 import RoundedCorners from "./RoundedCorners";
 import TiltEffect from "./TiltEffect";
 import Button from "./Button";
 
 
-type Props = {};
-const Story = (props: Props) => {
+const Story = () => {
 
 	return (
 		<section id="story" className="min-h-dvh w-screen overflow-hidden bg-black text-blue-50">

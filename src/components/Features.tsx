@@ -2,8 +2,7 @@ import { TiLocationArrow } from "react-icons/ti"
 import BentoCard from "./BentoCard"
 import TiltEffect from "./TiltEffect"
 
-type Props = {}
-const Features = (props: Props) => {
+const Features = () => {
   return (
     <section className="bg-black pb-52">
         <div className="container mx-auto px-3 md:px-10">

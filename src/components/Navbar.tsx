@@ -4,8 +4,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
 
-type Props = {}
-const Navbar = (props: Props) => {
+const Navbar = () => {
     const navContainerRef = useRef<HTMLDivElement>(null);
     const navItems = ['Nexus','Vault','Prologue','About','Contact'];
     const audioElementRef = useRef<HTMLAudioElement>(null);

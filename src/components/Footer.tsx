@@ -1,7 +1,6 @@
 import { FaDiscord, FaGithub, FaTwitch, FaTwitter } from "react-icons/fa";
 
-type Props = {}
-const Footer = (props: Props) => {
+const Footer = () => {
   const links = [
     { name: "Twitter", href: "https://twitter.com/", icon:<FaTwitter /> },
     { name: "Discord", href: "https://discord.com/", icon: <FaDiscord /> },

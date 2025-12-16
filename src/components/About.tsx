@@ -5,8 +5,7 @@ import AnimatedTitle from "./AnimatedTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
-type Props = {}
-const About = (props: Props) => {
+const About = () => {
 
     useGSAP(() => {
         const clipAnimation = gsap.timeline({
